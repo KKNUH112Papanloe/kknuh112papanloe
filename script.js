@@ -69,4 +69,12 @@ $(document).ready(function(){
             }
         }
     });
+// Pastikan menu toggle berfungsi di perangkat mobile
+$(document).ready(function(){
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    });
+});
+    
 });
